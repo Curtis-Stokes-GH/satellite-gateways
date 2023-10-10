@@ -1,0 +1,36 @@
+/* Extremely basic style just to make the app more usable */
+:root {
+  --standard-margin: 0.5em;
+}
+
+input {
+  margin: var(--standard-margin);
+}
+
+label {
+  margin-left: var(--standard-margin);
+}
+
+button {
+  margin-bottom: var(--standard-margin);
+  margin-right: var(--standard-margin);
+}
+
+a {
+  margin-right: var(--standard-margin);
+}
+
+.satellite-card {
+  border: 3px solid #ccc;
+}
+
+dt {
+  float: left;
+  clear: left;
+  text-align: right;
+  font-weight: bold;
+}
+
+dt::after {
+  content: ":";
+}
